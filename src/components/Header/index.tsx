@@ -88,7 +88,7 @@ const Header = () => {
           <ul className={`hidden xl:flex items-center gap-5 sm:gap-10 flex-shrink-0 ${
             stickyMenu ? "text-dark" : "text-white"
           }`}>
-            <Link href="/privacy" className={stickyMenu ? "text-dark" : "text-white"}>
+            <Link href="/shop" className={stickyMenu ? "text-dark" : "text-white"}>
             Shop
             </Link>
             <Link href="/about" className={stickyMenu ? "text-dark" : "text-white"}>
