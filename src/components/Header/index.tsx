@@ -82,8 +82,10 @@ const Header = () => {
           BENTRO
         </Link>
         </div>
+
+
           <div>
-          <ul className={`hidden md:flex items-center gap-5 sm:gap-10 flex-shrink-0 ${
+          <ul className={`hidden xl:flex items-center gap-5 sm:gap-10 flex-shrink-0 ${
             stickyMenu ? "text-dark" : "text-white"
           }`}>
             <Link href="/privacy" className={stickyMenu ? "text-dark" : "text-white"}>
@@ -266,10 +268,67 @@ const Header = () => {
           </span>
           </button>
           {/* //   <!-- Hamburger Toggle BTN --> */}
+        {/* side menu */}
+        <div
+          className={`fixed top-0 right-0 w-64 h-full bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
+            navigationOpen ? "translate-x-0" : "translate-x-full"
+          }`}
+        >
+          <div className="flex items-center justify-between p-4 border-b">
+            <h2 className="text-lg font-semibold">Menu</h2>
+            <button
+              aria-label="Close Menu"
+              className="focus:outline-none"
+              onClick={() => setNavigationOpen(false)}
+            >
+              <svg
+                className="w-6 h-6 text-gray-600"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+          <nav className="p-4">
+            <ul>
+              <li className="mb-2">
+                <a href="#" className="text-gray-700 hover:text-blue">
+                  Home
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="#" className="text-gray-700 hover:text-blue">
+                  About
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="#" className="text-gray-700 hover:text-blue">
+                  Services
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="#" className="text-gray-700 hover:text-blue">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+          
+         
+
         </div>
+
         </div>
       </div>
       {/* <!-- header top end --> */}
+      </div>
       </div>
     </header>
     // <Header />
