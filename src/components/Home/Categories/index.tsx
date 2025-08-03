@@ -8,6 +8,7 @@ import Image from "next/image";
 import "swiper/css/navigation";
 import "swiper/css";
 import SingleItem from "./SingleItem";
+import Link from "next/link";
 
 const Categories = () => {
   const sliderRef = useRef(null);
@@ -42,9 +43,11 @@ const Categories = () => {
             </div>
 
             <div className="flex items-center gap-3">
-              <button className="border p-2 rounded-md text-xs">
+              <Link href="/shop" className="border p-2 rounded-md text-xs">
+               <button className="border p-2 rounded-md text-xs">
                 View All
               </button>
+              </Link>
               <button onClick={handlePrev} className="swiper-button-prev">
                 <svg
                   className="fill-current"
