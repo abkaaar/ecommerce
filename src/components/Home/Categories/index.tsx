@@ -43,7 +43,7 @@ const Categories = () => {
             </div>
 
             <div className="flex items-center gap-3">
-              <Link href="/shop" className="border p-2 rounded-md text-xs">
+              <Link href="/shop" className="">
                <button className="border p-2 rounded-md text-xs">
                 View All
               </button>

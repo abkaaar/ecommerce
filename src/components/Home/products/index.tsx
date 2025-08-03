@@ -11,7 +11,7 @@ const PromoBanner = () => {
         </div>
         <div>
          <p className="font-medium text-2xl text-dark mb-2">Discover Your Perfect Sofa Today</p>  
-         <Link href="/sofas" className="border-b-2">Explore Now</Link>
+         <Link href="/shop" className="border-b-2">Explore Now</Link>
         </div>
        
       </div>

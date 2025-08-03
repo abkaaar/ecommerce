@@ -1,44 +1,35 @@
 const data = [
   {
-    title: "Televisions",
+    title: "Heven Hill",
     id: 1,
     img: "/images/categories/category-1.webp",
   },
   {
-    title: "Laptop & PC",
+    title: "Modern Luxe",
     id: 2,
-    img: "/images/categories/category-1.webp",
+    img: "/images/categories/category-2.webp",
   },
   {
-    title: "Mobile & Tablets",
+    title: "Nordic Flair",
     id: 3,
-    img: "/images/categories/category-1.webp",
+    img: "/images/categories/category-3.webp",
   },
   {
-    title: "Games & Videos",
+    title: "Velar Loft",
     id: 4,
-    img: "/images/categories/category-1.webp",
+    img: "/images/categories/category-4.webp",
   },
   {
-    title: "Home Appliances",
+    title: "Velora Luxe",
     id: 5,
-    img: "/images/categories/category-1.webp",
+    img: "/images/categories/category-5.webp",
   },
   {
-    title: "Health & Sports",
+    title: "Nordic Breeze",
     id: 6,
-    img: "/images/categories/category-1.webp",
-  },
-  {
-    title: "Watches",
-    id: 7,
-    img: "/images/categories/category-1.webp",
-  },
-  {
-    title: "Televisions",
-    id: 8,
-    img: "/images/categories/category-1.webp",
-  },
+    img: "/images/categories/category-6.webp",
+  }
+ 
 ];
 
 export default data;
